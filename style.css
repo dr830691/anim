@@ -1,0 +1,33 @@
+body, html{
+          
+    margin: 0px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#anim{
+    width:49%;
+    height:100%;
+    display:block;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    margin: auto;
+    float: left;
+    position: fixed;
+    left: 0;
+    top:0;
+    border-right: 1px solid #E5E5E5;
+}
+#contentid {
+    width:50%;
+    height: 100%;
+    float: right;
+}
+#contentid img {
+    width: 100%;
+    max-width: 502.5px;
+    left: 50%;
+    position: absolute;
+    margin: 0 4vw;
+}
